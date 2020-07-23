@@ -1,6 +1,7 @@
 # React Confirm Email
 
 ![React Image Upload](demo.gif)
+![React Image Upload](demo2.gif)
 ## Demo
 [Live demo](http://react-confirm-email.surge.sh)
 
