@@ -4,7 +4,7 @@
 ![React Image Upload](demo2.gif)
 
 ## Medium post
-[Email Confirmation with React and Node](https://medium.com/p/257e5d9de725/)
+ [Email Confirmation with React and Node](https://medium.com/p/257e5d9de725/)
 
 ## Getting Started
 
