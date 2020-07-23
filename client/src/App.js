@@ -31,18 +31,6 @@ export default class App extends Component {
       .catch(err => console.log(err))
   }
 
-  // You are probaly used to seeing React 'render()' methods written like this:
-  //
-  // render() {
-  //   return (
-  //     <Some jsx />
-  //   )
-  // }
-  //
-  // Below is a version of writing a 'render()' that also works. The 'why does 
-  // it work?' is related to the 'this' keyword in JavaScript and is beyond the 
-  // scope of this post.  
-  
   render = () => {
     
     // The 'content' function determines what to show the user based on whether 

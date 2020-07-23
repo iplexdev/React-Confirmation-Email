@@ -4,8 +4,8 @@ import { faMediumM, faGithub  } from '@fortawesome/free-brands-svg-icons'
 import { Footer, Button, Svg } from './Footer-Styles'
 
 export default props => 
-  <Footer>
-    <Button 
+  <Footer style={{alignItems:'center', justifyContent:'center', flexDirection:"column"}}>
+    {/* <Button 
       href={`https://medium.com/p/${props.mediumId}`}
       title='Medium Article'
       provider='medium'
@@ -13,9 +13,9 @@ export default props =>
       <Svg>
         <FontAwesomeIcon icon={faMediumM} size='3x' color='#fff' />
       </Svg>
-    </Button>
+    </Button> */}
     <Button 
-      href={`https://github.com/funador/${props.githubRepo}`}
+      href={`https://github.com/iplexdev/React-Confirmation-Email`}
       title='Github repo'
       provider='github'
     >
@@ -23,4 +23,7 @@ export default props =>
         <FontAwesomeIcon icon={faGithub} size='3x' color='#fff' />
       </Svg>
     </Button>
+    <div>
+      <h4>IplexDex</h4>
+    </div>
   </Footer>

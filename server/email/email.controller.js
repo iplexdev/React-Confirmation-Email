@@ -5,11 +5,12 @@ const templates = require('./email.templates')
 
 // The callback that is invoked when the user submits the form on the client.
 exports.collectEmail = (req, res) => {
+  console.log('checkingRequestforEmail', req.body);
   const { email } = req.body
   
   User.findOne({ email })
     .then(user => {
-      
+      console.log('userFind', user);
       // We have a new user! Send them a confirmation email.
       if (!user) {
         User.create({ email })
